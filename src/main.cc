@@ -13,16 +13,16 @@ int main()
     while(getline(cin, text))
     {
         if (!text.empty())  
-    {
-         while(text[i] != '\0')
-         {
-             if(text[i] == ' ')
-                count++;
-             i++;    
+        {
+             while(text[i] != '\0')
+            {
+                if(text[i] == ' ')
+                    count++;
+                 i++;    
+            }
+            count++;
         }
-        count++;
-    }
-    cout << count << endl;
+        cout << count << endl;
     }
     
     return(0);    

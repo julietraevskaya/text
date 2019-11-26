@@ -11,7 +11,7 @@ int main()
     int i = 0;
     int count = 0;
     getline(cin, text);
-    if (text[i] != '\0')  
+    if (!text.empty())  
     {
          while(text[i] != '\0')
          {

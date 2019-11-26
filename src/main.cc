@@ -17,12 +17,8 @@ int main()
          while(s[i] != '\0')
          {
              if(s[i] == ' ')
-            {
                 count++;
-                i++;
-            }
-            else
-                i++;    
+             i++;    
         }
         count++;
     }

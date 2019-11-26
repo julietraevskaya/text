@@ -11,12 +11,11 @@ int main()
     int i = 0;
     int count = 0;
     getline(cin, text);
-    char const* s = text.c_str();
-    if (s[i] != '\0')  
+    if (text[i] != '\0')  
     {
-         while(s[i] != '\0')
+         while(text[i] != '\0')
          {
-             if(s[i] == ' ')
+             if(text[i] == ' ')
                 count++;
              i++;    
         }

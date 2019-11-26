@@ -10,8 +10,9 @@ int main()
     string text;
     int i = 0;
     int count = 0;
-    getline(cin, text);
-    if (!text.empty())  
+    while(getline(cin, text))
+    {
+        if (!text.empty())  
     {
          while(text[i] != '\0')
          {
@@ -22,5 +23,7 @@ int main()
         count++;
     }
     cout << count << endl;
+    }
+    
     return(0);    
 }
